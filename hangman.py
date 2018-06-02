@@ -1,9 +1,7 @@
 print "hangman game"
 lives=6
-word="hello"
-for i in range(len(word)):
-    n="_"
-    print n,
+word="github"
+n="_"
 l=list(n*len(word))
 print "\n",l,
 count=0
